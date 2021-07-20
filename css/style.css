@@ -32,3 +32,11 @@ header .row {
     height: 280px;
     background-color: teal;
 }
+
+.about {
+    background-color: #1abc9c;
+}
+
+.pad-20-60 {
+    padding: 20px 60px;
+}
