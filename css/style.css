@@ -80,12 +80,9 @@ header .row {
 .img img {
     width: 100%;
 }
+/*fine hero*/
 
-.title {
-    color: teal;
-    padding: 30px 0;
-}
-
+/*inizio portfolio*/
 .porfolio .row {
     padding: 10px;
 }
@@ -95,8 +92,12 @@ header .row {
 }
 
 .square {
-    height: 280px;
-    background-color: teal;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.square img {
+    width: 100%;
 }
 
 .about {
