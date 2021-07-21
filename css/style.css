@@ -4,7 +4,12 @@ body {
 }
 
 a {
+    color: white;
     text-decoration: none;
+}
+
+a:hover {
+    color: white;
 }
 
 section {
@@ -17,6 +22,10 @@ section {
     border-radius: 0;
     color: #2c3e50;
     font-weight: 500;
+}
+
+.padding-60 {
+    padding: 0 100px;
 }
 
 /*star decoration*/
@@ -74,7 +83,9 @@ header {
 
 header a {
     color: white;
+    margin: 0 10px;
 }
+
 
 header .row {
     height: 70px;
@@ -140,16 +151,34 @@ header .row {
 }
 /*fine portfolio*/
 
+/*footer*/
 .about {
     background-color: #1abc9c;
 }
 
-.pad-20-60 {
-    padding: 20px 60px;
-}
-
 .footer-top {
     background-color: #3a546d;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.round-logos {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.round-logos:hover {
+    color: #2c3e50;
+    background-color: #fff;
 }
 
 .footer-bottom {
