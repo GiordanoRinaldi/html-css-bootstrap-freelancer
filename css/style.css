@@ -11,6 +11,14 @@ section {
     padding: 50px 0 50px 0;
 }
 
+.form-control {
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
 /*star decoration*/
 .star-decoration {
     display: flex;
@@ -43,12 +51,18 @@ section {
 /*button*/
 .btn {
     border: 1px solid #fff;
+    color: #fff;
 }
 
 .fa-bars{
     color: #fff;
 }
 
+.color-2 {
+    background-color: #1abc9c;
+}
+
+/*fine button*/
 /*header*/
 
 header {
