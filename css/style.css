@@ -192,3 +192,15 @@ header .row {
 .bootstrap-link {
     color: #1abc9c;
 }
+
+
+/*test*/ 
+
+
+.navbar-toggler {
+    border: 1px solid white;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
