@@ -32,9 +32,20 @@ header .row {
     height: 70px;
 }
 
+
+/*main*/
+
+/*hero*/
 .hero {
     background-color: #1abc9c;
     padding: 80px 0 20px 0;
+}
+.img {
+    width: 200px;
+}
+
+.img img {
+    width: 100%;
 }
 
 .title {
