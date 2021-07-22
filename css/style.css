@@ -166,7 +166,9 @@ header .row {
 
 .logos {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 0;
 }
 
 .round-logos {
@@ -176,7 +178,7 @@ header .row {
     border-radius: 50%;
     line-height: 50px;
     font-size: 20px;
-    margin: 0 10px;
+    margin: 10px;
     transition: 0.3s;
 }
 
